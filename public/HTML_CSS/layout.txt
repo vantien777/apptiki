@@ -1,0 +1,229 @@
+.header
+    .header_navBar
+        div.container
+            div.row
+                div.col
+                    div.header__logo__menu
+                        div.header__logo 
+                            a.header__logo-link
+                                img 
+                        div.header__menu
+                            a.header__menu-link  
+                                img  
+                                div.header__menu-text  
+                                    span  
+                                    span.header__menu-text-icon  
+                div.col
+                    div.header__search  
+                        input.header__search-input
+                        button.header__search-button  
+                        div.header__search-history   
+                div.col
+                    div.header__user__cart
+                        div.header__user 
+                            img.header__user-icon
+                            span.header__user-item  
+                                span.header__user-item-login
+                                span.header__user-item-account
+                                    span  
+                                    img.arrowIcon
+                        div.header__cart 
+                            a.header__cart-link  
+                                div.header__cart-item
+                                    div.header__cart-wrapper
+                                        img.header__cart-icon
+                                        span.header__cart-quantity 
+                                    span.header__cart-text 
+
+    .header__quicklinks  
+        div.container  
+            div.row  
+                div.col
+                     .header__quicklinks-list
+                        a.header__quicklinks-item
+
+
+//main
+div.product__list__container
+    div.product__header
+        div.container
+            div.row
+                div.col
+                    div.product__header-item
+                        img
+    div.product__list
+        div.product__list-content
+            div.container
+                div.row
+                    div.col
+                        div.product-item
+                            a.product-item-link
+                                div.product-item-frame
+                                    div.product-item-thumbnail
+                                        img
+                                    div.product-item-info
+                                        div.product-item-name
+                                        div.product-item-rating-review
+                                            div.rating
+                                                raiting-total
+                                                rating-average
+                                            div.review
+                                        div.product-item-price
+                                            div.price
+                                            div.discount
+        div.product__list-expand
+            div.container
+                div.row
+                    div.col
+                        a.product__list-expand-link
+
+
+
+
+// footer
+        .container
+            .row footer__information
+                .col
+                    div.footer__information-item
+                        h4
+                        a.footer__information-link
+
+                .col
+                    div.footer__information-item
+                        h4
+                        p
+                            img
+
+                .col
+                    div.footer__information-item
+                        h4
+                        p
+                            a
+                                img
+                        p
+                            a
+                                img
+
+
+.main
+    .container
+        .product__container
+            .row
+                .col10-2
+                    .sideBar
+                        .seach__filter__container //danh mục
+                            h4.title
+                            .seach__filter__list
+                                a.search__filter__item //đánh giá
+                        .seach__filter__container
+                            h4.title
+                            .rating-list
+                                a.search__filter__item
+                        .seach__filter__container // Giá
+                            h4.title
+                            .fast-price-filter
+                                .fast-price-filter-item
+                                    span
+                            .price-small-text
+                            .input__group
+                                input
+                                span
+                                input
+                            .search_filter-submit-button
+                        .seach__filter__container // Màu
+                            h4.title
+                            .seach__filter__list
+                                .search__filter__item
+                                    .search__filter__item-label
+                                        input
+                                        span
+                .col10-8
+                    .Category
+                        .row
+                            .col
+                                .search-summary
+                                    .title
+                                        h1
+                                    .search-summary-sorter
+                                        .search-sort-container
+                                            .sortlist
+                                                a.sort-item-link
+                        .product__list
+
+.container
+    .cart
+        .cart__inner
+            .h2.cart__product-title
+            .cart__product-group
+                ul.cart__product-list
+                    li.cart__product-item
+                        .cart__product-inner
+                            .cart__products-thumnail
+                                .cart__products-thumnail-link
+                                    .cart__products-thumnail-img
+                            .cart__products-content
+                                .cart__products-desc
+                                    a.cart__products-name
+                                    p.cart__products-action
+                                        span.remove-product
+                                .cart__products-details
+                                    .cart__products-price
+                                        p.cart__products-real-price
+                                        p.cart__products-discount-price
+                                            del
+                                            span
+                                    .cart__products-quantity
+                                        .cart__products-quantity-item
+                                            span
+                                            input.quantity-input
+                                            span
+        .cart__total__price
+            .cart__price
+                p.prices__total-item
+                    span.prices__text
+                    span.prices__value
+            button.cart__submit
+
+//
+.container
+    .product__main__wrapper
+        .row
+            col10-4
+                .product__main__image
+                    .images-thumnail
+                        .img
+                    .review-images
+                        .review-images-list
+                            a.review-images-item
+            col10-6
+                .product__main__content
+                    .content-title
+                        h1.title
+                    .content-body
+                        .content-price-option-wrapper
+                            .content-price
+                                .product-price
+                                    span.product-price-real
+                                    span.product-price-fake
+                                    span.product-price-discout
+                            .content-option
+                                p.option-name
+                                    span
+                                .option-list
+                                    a.btn-option active
+                                    a.btn-option
+                            .add-to-cart
+                                .quantity
+                                    p.label
+                                    .group-input
+                                        button
+                                            img
+                                        input.input
+                                        button
+                                            img
+                                .group-button
+                                    button.btn btn-add-to-cart
+
+
+
+
